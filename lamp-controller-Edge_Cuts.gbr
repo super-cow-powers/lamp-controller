@@ -1,0 +1,23 @@
+%TF.GenerationSoftware,KiCad,Pcbnew,7.99.0-3522-gc5520b3eef-dirty*%
+%TF.CreationDate,2023-12-17T14:55:44+00:00*%
+%TF.ProjectId,lamp-controller,6c616d70-2d63-46f6-9e74-726f6c6c6572,rev?*%
+%TF.SameCoordinates,Original*%
+%TF.FileFunction,Profile,NP*%
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW 7.99.0-3522-gc5520b3eef-dirty) date 2023-12-17 14:55:44*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+%TA.AperFunction,Profile*%
+%ADD10C,0.100000*%
+%TD*%
+G04 APERTURE END LIST*
+D10*
+X129600000Y-69300000D02*
+X164500000Y-69300000D01*
+X164500000Y-95800000D01*
+X129600000Y-95800000D01*
+X129600000Y-69300000D01*
+M02*
