@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.127
         }
       },
       "diff_pair_dimensions": [
@@ -58,7 +58,15 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "clearance|138425000|85900000|d265ccc7-cf06-4cd1-9d7f-5f3484640791|f55d19ee-776b-4b5a-8ad8-e7d3c3e96a32",
+        "clearance|139500000|85900000|f55d19ee-776b-4b5a-8ad8-e7d3c3e96a32|3a77bc5b-36da-4061-944d-71e6ade43c62",
+        "copper_edge_clearance|107480000|72845000|496ce80b-4da5-4f04-8f77-ebf6e2c57d8a|e0423f22-e983-41f2-a2a6-f7251aa184a8",
+        "copper_edge_clearance|107480000|74765000|496ce80b-4da5-4f04-8f77-ebf6e2c57d8a|ee8d09d1-0c13-4dd4-8323-7c3da31b1432",
+        "silk_overlap|137327500|78918579|225f9473-feb5-4aad-9eb8-be9e2d2171a8|62ef21f9-dbad-456c-a203-42fbe188cd47",
+        "starved_thermal|112000000|72100000|cbf7877f-23ae-4423-b9e7-a3f848cfd9e6|64a2d831-dd7b-445b-b581-eb0169b439ea|F.Cu",
+        "starved_thermal|112000000|76940000|cbf7877f-23ae-4423-b9e7-a3f848cfd9e6|7dd3cbc0-047e-4fcb-84c1-f32be6bacf0d|F.Cu"
+      ],
       "meta": {
         "version": 2
       },
@@ -180,7 +188,8 @@
       "track_widths": [
         0.0,
         0.13,
-        0.25
+        0.25,
+        1.0
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -529,6 +538,18 @@
       {
         "netclass": "Low Power",
         "pattern": "+3V3"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "/D_o"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "/E_o"
+      },
+      {
+        "netclass": "Low Power",
+        "pattern": "+1V1"
       }
     ]
   },
